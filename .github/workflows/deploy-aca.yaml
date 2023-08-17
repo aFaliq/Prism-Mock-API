@@ -52,4 +52,4 @@ jobs:
             resourceGroup: ${{ vars.AZURE_CONTAINER_APP_RESOURCE_GROUP }}
             containerAppName: ${{ vars.AZURE_CONTAINER_APP_NAME }}
             containerAppEnvironment: ${{ vars.AZURE_CONTAINER_APP_ENVIRONMENT }}
-            imageToDeploy: ${{ secrets.REGISTRY_USERNAME }}/${{ vars.APP_NAME }}:${{ github.sha }}
+            imageToDeploy: ${{ secrets.REGISTRY_URL }}/${{ vars.APP_NAME }}:${{ github.sha }}
