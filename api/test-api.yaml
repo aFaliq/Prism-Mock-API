@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: anisAPI
+  title: TestAPI
   version: '1.0'
 paths:
   '/getName/{userId}':
